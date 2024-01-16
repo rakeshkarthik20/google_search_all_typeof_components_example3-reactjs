@@ -1,0 +1,48 @@
+/* Write your CSS here */
+.mainContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.subContainer {
+  display: flex;
+  flex-direction: column;
+  width: 600px;
+}
+.googleImage {
+  width: 50vh;
+  margin-bottom: 50px;
+  align-self: center;
+}
+.searchLogo {
+  margin-left: 5px;
+  width: 25px;
+  margin-right: 10px;
+}
+.searchMainContainer {
+  box-shadow: 0px 4px 16px 0px #bfbfbf;
+  padding: 10px;
+  border-radius: 15px;
+}
+.searchContainer {
+  display: flex;
+  background-color: #ffffff;
+}
+.searchBox {
+  border: 0px solid;
+  outline: none;
+  font-size: 15px;
+  font-family: 'Roboto';
+  color: #64748b;
+  width: 520px;
+}
+/* .searchBox:hover {
+  cursor: pointer;
+} */
+.searchItems {
+  padding: 0px;
+  margin-left: 10px;
+  margin-bottom: 0px;
+}
